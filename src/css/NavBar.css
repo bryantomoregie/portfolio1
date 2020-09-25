@@ -1,3 +1,8 @@
+.navigation{
+    position: sticky;
+    top: 0;
+  }
+
 .navbar-container{
     background-color: teal;
     height: 80px;
@@ -19,7 +24,7 @@
 }
 
 .nav-menu{
-    background-color: teal;
+    background-color: light coral;
     margin-top: 0px;
     width: 250px;
     height: 100vh;
@@ -28,6 +33,7 @@
     position: fixed;
     left: -100%;
     transition: 850ms;
+    z-index: 3;
 }
 
 .nav-menu.active{
@@ -52,11 +58,22 @@
     height: 100%;
     display: flex;
     align-items: center;
+    margin-right: 0px;
     padding: 0 16px;
     border-radius: 4px;
   }
 
 .nav-text a:hover {
-    background-color: #1a83ff;
+    background-color: orange;
   }
+
+
+
+/* button {
+    background: none;
+    position: absolute;
+    right: 16px;
+    top: 30px;
+    font-size: 18px;
+} */
 

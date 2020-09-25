@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
 import { SideBarData } from "./SideBarData";
-import { NavButtons } from "./NavButtons";
+import  NavButtons  from "./NavButtons.js";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineHeart } from "react-icons/ai";
 
 export default function NavBar() {
@@ -34,10 +34,7 @@ export default function NavBar() {
     <div className="navigation">
       <div className="navbar-container">
         {largeScreen ? (
-          <Link to="/projects">
-           <button>Hello</button>
-          </Link>
-       
+          <NavButtons/>
         ) : (
           <div className="menu-icon" onClick={handleClick}>
             {click ? <AiOutlineClose /> : <AiOutlineMenu />}
@@ -63,21 +60,8 @@ export default function NavBar() {
 }
 
 /*
-When screen is shrunk, console.log false
-When 
+To begin using flexbox, I need a flex container. This is done by adding display:flex
+to container css. ***
+So I could do jsutify-content: flex-end, and change the css when the size changes. A lot of work though
+Why not jut keep it at start, and move the div over to the right. 
 */
-
-//When screen is a certain size, I want the hamburger to show
-//Onclick, the hamburger turns to x and a list appears showing navigatables
-//The list slides from the left, and we can click
-//onclick, hamburger returns, side bar returns to where it was, and we go to the location
-
-//If window is x size, show the hamburger
-//When window gets smaller, hamburger will appear
-//When hamburger is clicked, it will trigger handle click, turn click true
-//When click is true, the classname will change, which will change the css, and change the the hamburger to x
-//when hamburger is clicked again, the css will change back because classname has changed
-
-{
-  /*  */
-}

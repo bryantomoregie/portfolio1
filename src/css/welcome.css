@@ -1,0 +1,72 @@
+.welcome {
+    background-image: url('../images/nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 250px;
+    padding-top: 100px;
+    display: flex;
+    
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    text-align: center; */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.recruiterButton{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    /* opacity: 0.8; */
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.recruiterButton:hover{
+    opacity: 1.0;
+}
+/* 
+.welcome {
+    color:white;
+    opacity: 1.0;
+  
+}
+
+.text {
+    text-align: left;
+    font-family: "Lucida Console", Courier, monospace;
+    letter-spacing: -2px;
+    font-size: 150%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.text h1 {
+    font-size: 285%;
+}
+
+.header button {
+    margin-top: 75px;
+    padding: 20px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    opacity: 1.0;
+    font-size: 16px;
+    margin: 4px 2px;
+} */
