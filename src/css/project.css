@@ -1,0 +1,114 @@
+
+.container{
+    background-color: lightcyan;
+    min-height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 10% 0;
+    flex-wrap: wrap;
+}
+
+.hello{
+  border-style: solid;
+  width: 400px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/j3a6Cyh\ -\ Imgur.png");
+  background-size: contain;
+  
+}
+
+.links{
+  border-style: solid;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: black;
+ 
+}
+
+.goodbye{
+  width: 400px;
+  height: 270px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center;  */
+  display: flex;
+  flex-direction: column;
+}
+
+.goodbye h1{
+  margin-left: 10%
+}
+
+#first{
+  margin-top: 15%;
+  margin-left: 10%
+}
+
+#last{
+  margin-top: 20%;
+  margin-left: 10%
+}
+
+.scroll {
+  display: flex;
+  font-size: 2rem;
+  color: orange;
+  justify-content: center;
+}
+
+#left:hover {
+  font-size: 3rem;
+}
+
+#right:hover {
+  font-size: 3rem;
+}
+
+.preview{
+  /* background-color: #85144b; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: #85144b;
+  height: 50px;
+  width: 50px;
+  margin: 0 1%;
+  font-size: 0.75rem;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+#itni-pre:hover{
+  height: 70px;
+  width: 100px;
+  background-image: url("../images/j3a6Cyh\ -\ Imgur.png");
+  background-size: 100%;
+}
+
+/* #itni-pre:active{
+  height: 70px;
+  width: 100px;
+  background-image: url("../images/j3a6Cyh\ -\ Imgur.png");
+  background-size: 100%;
+} */
+
+#shoe-pre:hover{
+  height: 70px;
+  width: 100px;
+  background-image: url("../images/j3a6Cyh\ -\ Imgur.png");
+}
+
+#port-pre:hover{
+  height: 70px;
+  width: 100px;
+}

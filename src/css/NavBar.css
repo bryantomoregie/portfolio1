@@ -9,12 +9,6 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    
-    /* width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px; 
-    padding-right: 10px; */
 } 
 
 .menu-icon{
@@ -67,13 +61,4 @@
     background-color: orange;
   }
 
-
-
-/* button {
-    background: none;
-    position: absolute;
-    right: 16px;
-    top: 30px;
-    font-size: 18px;
-} */
 
