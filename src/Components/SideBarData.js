@@ -1,25 +1,25 @@
-import React, { useState } from "react";
+
 
 
 export const SideBarData =  [
     {
         title: 'Welcome',
-        path: '/',
+        path: '#welcome',
         cName: 'nav-text'
     },
     {
         title: 'Projects',
-        path: '/projects',
+        path: '#projects',
         cName: 'nav-text'
     },
     {
         title: 'Tech',
-        path: '/tech',
+        path: '#tech',
         cName: 'nav-text'
     },
     {
-        title: 'Contacts',
-        path: '/contacts',
+        title: 'Connect',
+        path: '#connect',
         cName: 'nav-text'
     },
 ]

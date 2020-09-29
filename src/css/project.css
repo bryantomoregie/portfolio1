@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
 
-.container{
-    background-color: lightcyan;
+
+#projects{
+  text-align: center;
+  padding-top: 20px; 
+}
+
+#project-header{
+  font-family: 'Peddana', serif;
+  font-size: 100px;
+  margin-bottom: 0; 
+  padding-bottom: 0;
+  /* border-style: solid;
+  border-color: #a28089; */
+}
+
+
+.projects-container{
+    /* border-style: solid;
+    border-color: #a28089; */
     min-height: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin: 10% 0;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    /* margin: 5% 0; */
     flex-wrap: wrap;
+    z-index: -1;
 }
 
 .hello{
@@ -17,9 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url("../images/j3a6Cyh\ -\ Imgur.png"); */
   background-size: contain;
-  
 }
 
 .links{
@@ -37,8 +55,6 @@
   width: 400px;
   height: 270px;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center;  */
   display: flex;
   flex-direction: column;
 }
@@ -74,7 +90,6 @@
 }
 
 .preview{
-  /* background-color: #85144b; */
   border-style: solid;
   border-width: 1px;
   border-color: #85144b;
@@ -104,5 +119,10 @@
 
 #shoepalace{
   background-image: url("../images/shoe-palace.png");
+  background-size: 100%;
+}
+
+#portfolio{
+  background-image: url("../images/portfolio.png");
   background-size: 100%;
 }

@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 .welcome {
     background-image: url('../images/nature.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 00px;
     padding-bottom: 250px;
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
+    z-index: -1;
+}
+
+h2, h3 {
+    font-family: 'Peddana', serif;
+}
+
+h4{
+    font-family: 'Parisienne', cursive;
 }
 
 .text{

@@ -9,53 +9,61 @@ import SiRails from "react-icons/si";
 
 let TechRow1 = [
   {
-    logo: AiOutlineHtml5,
+    logo: <AiOutlineHtml5/>,
     label: "HTML"
   },
   {
-    logo: FaCss3,
+    logo: <FaCss3/>,
     label: "CSS"
   },
   {
-    logo: DiJavascript1,
+    logo: <DiJavascript1/>,
     label: "JavaScript"
   }
 
 ]
 let TechRow2 = [
 {
-  logo: FaReact,
+  logo: <FaReact/>,
   label: "React"
 },
 {
-  logo: DiRuby,
+  logo: <DiRuby/>,
   label: "Ruby"
 },
 {
-  logo: AiFillGithub,
+  logo: <AiFillGithub/>,
   label: "Github"
 },
 {
-  logo: DiVisualstudio,
+  logo: <DiVisualstudio/>,
   label: "VisualStudio"
 }]
 
 
 export default function Tech() {
   return (
-    <div id="tech" className="container">
+    <div id="tech" className="techcontainer">
  
       <div className="row" id="top-row">
-        <div>Logo</div>
-        <div>Label</div>
+        {TechRow1.map((tech) => 
+        <div className="tech-card">
+        <div className="tech-logo">{tech.logo}</div>
+        <div className="tech-name">{tech.label}</div>
+        </div>
+        )}
       </div>
 
       <div className="row" id="bottom-row">
-        <div>Logo</div>
-        <div>Label</div>
+        {TechRow2.map((tech) => 
+        <div className="tech-card">
+        <div className="tech-logo">{tech.logo}</div>
+        <div className="tech-name">{tech.label}</div>
+        </div>
+        )}
       </div>
 
-      <div className="technology">Technology</div>
+      <div className="title">Technology</div> 
     </div>
   );
 }

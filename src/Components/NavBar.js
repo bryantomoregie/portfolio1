@@ -11,6 +11,7 @@ export default function NavBar() {
 
   const handleClick = () => {
     setClick(!click);
+    console.log(click)
   };
 
   const showSideBar = () => {
@@ -26,7 +27,6 @@ export default function NavBar() {
   useEffect(() => {
     if (window.innerWidth < 600) {
       setLargeScreen(false);
-      console.log("im hit", largeScreen);
     }
   });
 
@@ -48,9 +48,9 @@ export default function NavBar() {
         {SideBarData.map((item, index) => {
           return (
             <li key={index} className={item.cName}>
-              <Link to={item.path}>
+              <a href={item.path}>
                 <span>{item.title}</span>
-              </Link>
+              </a>
             </li>
           );
         })}

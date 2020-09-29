@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import shoePhoto from '../images/shoe-palace.png'
 import itniPhoto from '../images/itni.png'
+import portfolioPhoto from '../images/portfolio.png'
+
 import "../css/project.css";
 import {
   AiFillGithub,
@@ -27,17 +29,17 @@ export default function Projects() {
       title: "Shoe Palace (E-Commerce)",
       sentenceOne: "Shoe Palace is a one stop shop to buy and sell shoes.",
       sentenceTwo: "Follow me for updates on this project!",
-      ytlink: "https://www.youtube.com/watch?v=SSnwMdVVbt8",
+      ytlink: "https://www.youtube.com/watch?v=CD5ojdO9-f0&t=25s",
       ghlink: "https://github.com/bryantomoregie/Project-4",
     },
 
     portfolio: {
-      image: "image",
+      image: portfolioPhoto,
       title: "ITNI (Social Media)",
       sentenceOne:
         "ITNI is a place to have civil discussion around often contentious topics.",
       sentenceTwo: "Follow me for updates on this project!",
-      ytlink: "https://www.youtube.com/watch?v=CD5ojdO9-f0&t=25s",
+      ytlink: "https://www.youtube.com/channel/UCQNT9bbPe3ToBgrztaSU6mA/featured?view_as=subscriber",
       ghlink: "https://github.com/bryantomoregie",
     },
   };
@@ -66,7 +68,8 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <div class="container">
+      <h1 id="project-header">Projects</h1>
+      <div class="projects-container" id="projects">
         <div>
           <div style={{ backgroundImage: `url(${project.image})`}} class="hello">
 
