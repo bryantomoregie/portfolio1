@@ -26,12 +26,12 @@ export default function Welcome() {
  })
 
   return (
-    <div className="welcome" >
+    <div id="welcome" className="welcome" >
       <div className="text">
         <h2> {`${greeting},`}</h2>
         <h2>friend.</h2>
         <h3>Enjoy your stay.</h3>
-        <h4>- Bryant Omoregie</h4>
+        {/* <h4>- Bryant Omoregie</h4> */}
         <br></br>
         <button className="recruiterButton">Recruiters Click Here</button>
       </div>

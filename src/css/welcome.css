@@ -1,5 +1,6 @@
 .welcome {
     background-image: url('../images/nature.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0px;
@@ -7,10 +8,6 @@
     padding-bottom: 250px;
     padding-top: 100px;
     display: flex;
-    
-    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-    text-align: center; */
 }
 
 .text{

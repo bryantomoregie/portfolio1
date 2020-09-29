@@ -1,0 +1,19 @@
+.container {
+    background-image: url('../images/mountains.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-size: 200px;
+    
+}
+
+#technology{
+    font-size: 100px;
+}

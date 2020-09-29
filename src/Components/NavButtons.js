@@ -5,18 +5,18 @@ import { Link } from "react-router-dom";
 export default function NavButtons(){
     return(
         <ul>
-        <Link to="/">
+        <a href="#welcome">
         <button className="button">Welcome</button>
-        </Link>
-         <Link to="/projects">
+        </a>
+         <a href="#projects">
          <button className="button">Projects</button>
-        </Link>
-         <Link to="/tech">
+        </a>
+         <a href="#tech">
          <button className="button">Tech</button>
-        </Link>
-         <Link to="/connect">
+        </a>
+         <a href="#connect">
          <button className="button">Connect</button>
-        </Link>
+        </a>
         </ul>
     )
 }
