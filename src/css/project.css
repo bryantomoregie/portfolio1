@@ -81,13 +81,6 @@
   margin-bottom: 80px;
 }
 
-#left:hover {
-  font-size: 3rem;
-}
-
-#right:hover {
-  font-size: 3rem;
-}
 
 .preview{
   border-style: solid;
@@ -102,6 +95,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1.0s ease;
+  cursor: pointer;
 }
 
 .clicked{

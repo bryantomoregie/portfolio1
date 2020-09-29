@@ -18,8 +18,7 @@ export default function Projects() {
       image: itniPhoto,
       title: "ITNI (Social Media)",
       sentenceOne:
-        "ITNI is a place to have civil discussion around often contentious topics.",
-      sentenceTwo: "Follow me for updates on this project!",
+        "Online polarization is having detrimental effects on our society. We seem less and less capable of having civil discussions around controversial and person topics. ITNI is designed to be a space where humans with good hearts and curious minds can gather together and have quality conversations about the most important issues of our time.",
       ytlink: "https://www.youtube.com/watch?v=SSnwMdVVbt8",
       ghlink: "https://github.com/bryantomoregie/ITNI-Mod-5",
     },
@@ -27,20 +26,18 @@ export default function Projects() {
     shoepalace: {
       image: shoePhoto,
       title: "Shoe Palace (E-Commerce)",
-      sentenceOne: "Shoe Palace is a one stop shop to buy and sell shoes.",
-      sentenceTwo: "Follow me for updates on this project!",
+      sentenceOne: "Shoe Palace is designed to be a one stop shop for both customers and sellers. This site was built with two friends durign my time at Flatiron School. This was also my first full stack React application.",
       ytlink: "https://www.youtube.com/watch?v=CD5ojdO9-f0&t=25s",
       ghlink: "https://github.com/bryantomoregie/Project-4",
     },
 
     portfolio: {
       image: portfolioPhoto,
-      title: "ITNI (Social Media)",
+      title: "Project Portfolio",
       sentenceOne:
-        "ITNI is a place to have civil discussion around often contentious topics.",
-      sentenceTwo: "Follow me for updates on this project!",
+        "This portfolio was made with love for your viewing pleasure. This is the first website I've ever deployed, and I'm super proud. This place will be the home of all of my future projects so bookmark this site, and stay updated. ",
       ytlink: "https://www.youtube.com/channel/UCQNT9bbPe3ToBgrztaSU6mA/featured?view_as=subscriber",
-      ghlink: "https://github.com/bryantomoregie",
+      ghlink: "https://github.com/bryantomoregie/portfolio1",
     },
   };
 
@@ -75,10 +72,10 @@ export default function Projects() {
 
           </div>
           <div class="links">
-            <a href={project.ghlink}>
+            <a href={project.ghlink} target="_blank">
               <AiFillGithub />
             </a>
-            <a href={project.ytlink}>
+            <a href={project.ytlink} target="_blank">
               <AiFillYoutube />
             </a>
           </div>
@@ -86,12 +83,11 @@ export default function Projects() {
         <div class="goodbye">
           <h1>{project.title}</h1>
           <p id="first">{project.sentenceOne}</p>
-          <p id="last">{project.sentenceTwo}</p>
         </div>
       </div>
 
       <div className="scroll">
-        <div id="left" onClick={(e) => handleClick(e)}>
+        <div id="left" >
           <AiOutlineDoubleLeft />
         </div>
         <div ref={itni} className="preview" id="itni" onClick={(e) => handleClick(e)}></div>

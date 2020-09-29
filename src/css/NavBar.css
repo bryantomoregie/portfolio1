@@ -17,6 +17,22 @@
     background: none;
 }
 
+.heart{
+    color: red
+}
+
+.dedication{
+    display:flex;
+    position: relative;
+    left: 25px;
+    font-family: 'Lato', sans-serif;
+    flex-wrap: wrap;
+}
+
+.sentence{
+
+}
+
 .nav-menu{
     background-color: light coral;
     margin-top: 0px;

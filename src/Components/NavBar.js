@@ -2,8 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
 import { SideBarData } from "./SideBarData";
-import  NavButtons  from "./NavButtons.js";
-import { AiOutlineMenu, AiOutlineClose, AiOutlineHeart } from "react-icons/ai";
+import NavButtons from "./NavButtons.js";
+import {
+  AiOutlineMenu,
+  AiOutlineClose,
+  AiOutlineHeart,
+  AiFillHeart,
+} from "react-icons/ai";
 
 export default function NavBar() {
   const [click, setClick] = useState(false);
@@ -11,7 +16,7 @@ export default function NavBar() {
 
   const handleClick = () => {
     setClick(!click);
-    console.log(click)
+    console.log(click);
   };
 
   const showSideBar = () => {
@@ -22,17 +27,26 @@ export default function NavBar() {
     }
   };
 
-  window.addEventListener("resize", showSideBar);
+  // window.addEventListener("resize", showSideBar);
 
-  useEffect(() => {
-    if (window.innerWidth < 600) {
-      setLargeScreen(false);
-    }
-  });
+  // useEffect(() => {
+  //   if (window.innerWidth < 600) {
+  //     setLargeScreen(false);
+  //   }
+  // });
 
   return (
     <div className="navigation">
       <div className="navbar-container">
+        <div className="dedication">
+          <div className="sentence">Dedicated to Caydence</div>
+          <div className="heart">
+            <AiFillHeart />
+          </div>
+        </div>
+        <NavButtons />
+      </div>
+      {/* <div className="navbar-container">
         {largeScreen ? (
           <NavButtons/>
         ) : (
@@ -40,7 +54,7 @@ export default function NavBar() {
             {click ? <AiOutlineClose /> : <AiOutlineMenu />}
           </div>
         )}
-      </div>
+      </div> */}
       <ul
         className={click ? "nav-menu active" : "nav-menu"}
         onClick={handleClick}

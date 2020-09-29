@@ -1,28 +1,34 @@
 import React from "react";
 import "../css/connect.css";
 import {
+  AiFillCheckCircle,
   AiFillLinkedin,
   AiFillGithub,
-  AiOutlineSave,
   AiFillYoutube,
 } from "react-icons/ai";
 
 let Connects = [
   {
-    logo: <AiOutlineSave />,
+    logo: <AiFillCheckCircle />,
     label: "Resume",
+    link:
+      "https://drive.google.com/file/d/1i7KC9PmBJZfNSX9W5wIEUVAF6jst6sXw/view?usp=sharing",
   },
   {
     logo: <AiFillLinkedin />,
     label: "LinkedIn",
+    link: "https://www.linkedin.com/in/bryant-omoregie-a5aab515b/",
   },
   {
     logo: <AiFillGithub />,
     label: "Github",
+    link: "https://github.com/bryantomoregie",
   },
   {
     logo: <AiFillYoutube />,
     label: "YouTube",
+    link:
+      "https://www.youtube.com/channel/UCQNT9bbPe3ToBgrztaSU6mA/featured?view_as=subscriber",
   },
 ];
 
@@ -31,10 +37,12 @@ export default function Connect() {
     <div id="connect" className="contact-container">
       <div className="connect-row" i>
         {Connects.map((tech) => (
-          <div className="connect-card">
-            <div className="connectlogo">{tech.logo}</div>
-            <div className="connect-name">{tech.label}</div>
-          </div>
+          <a href={tech.link} target="_blank">
+            <div className="connect-card">
+              <div className="connectlogo">{tech.logo}</div>
+              <div className="connect-name">{tech.label}</div>
+            </div>
+          </a>
         ))}
       </div>
     </div>

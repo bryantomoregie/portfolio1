@@ -22,7 +22,7 @@ h4{
     font-family: 'Parisienne', cursive;
 }
 
-.text{
+.welcome-text{
     display: flex;
     flex-direction: column;
     color: white;
@@ -48,34 +48,3 @@ h4{
 .recruiterButton:hover{
     opacity: 1.0;
 }
-/* 
-.welcome {
-    color:white;
-    opacity: 1.0;
-  
-}
-
-.text {
-    text-align: left;
-    font-family: "Lucida Console", Courier, monospace;
-    letter-spacing: -2px;
-    font-size: 150%;
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.text h1 {
-    font-size: 285%;
-}
-
-.header button {
-    margin-top: 75px;
-    padding: 20px;
-    background-color: #ffcc00;
-    color: black;
-    border: none;
-    border-radius: 25px;
-    opacity: 1.0;
-    font-size: 16px;
-    margin: 4px 2px;
-} */

@@ -23,6 +23,10 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-   
+    color: black;
+}
+
+a{
+    text-decoration: none !important;
 }
 

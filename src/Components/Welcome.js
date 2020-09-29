@@ -11,13 +11,13 @@ export default function Welcome() {
     let time = today.getHours();
 
     if (time >= 5 && time <= 11){
-        setGreeting("Goodmorning")
+        setGreeting("Good Morning")
     }
     else if (time > 11 && time < 17){
-        setGreeting("Goodafternoon")
+        setGreeting("Good Afternoon")
     } 
     else if (time >= 17 || time <= 4){
-        setGreeting("Goodevening")
+        setGreeting("Good Evening")
     } 
  };
 
@@ -27,7 +27,7 @@ export default function Welcome() {
 
   return (
     <div id="welcome" className="welcome" >
-      <div className="text">
+      <div className="welcome-text">
         <h2> {`${greeting},`}</h2>
         <h2>friend.</h2>
         <h3>Enjoy your stay.</h3>

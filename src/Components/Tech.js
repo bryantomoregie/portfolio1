@@ -63,7 +63,7 @@ export default function Tech() {
         )}
       </div>
 
-      <div className="title">Technology</div> 
+      <div className="tech-title">Technology</div> 
     </div>
   );
 }

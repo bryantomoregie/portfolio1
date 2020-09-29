@@ -8,23 +8,28 @@ ul {
     margin-left: auto;
 }
 
-.button {
+.nav-button {
     color: white;
     background: none;
     border-bottom: 2px solid white;
     border-left: none;
     border-right: none;
     border-top: none;
-    
+    cursor: pointer;
+    font-size: 15px;
   }
   
-  .button:hover {
+  .nav-button:hover {
     border-bottom: 2px solid orange;
   }
   
-  .button:focus {
+  .nav-button:focus {
     border-bottom: 2px solid orange;
-    
+    outline:0 !important; 
+  }
+
+  .nav-button:active{
+    border-bottom: 2px solid orange;
   }
   
 

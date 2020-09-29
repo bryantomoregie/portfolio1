@@ -6,16 +6,16 @@ export default function NavButtons(){
     return(
         <ul>
         <a href="#welcome">
-        <button className="button">Welcome</button>
+        <button className="nav-button">Welcome</button>
         </a>
          <a href="#projects">
-         <button className="button">Projects</button>
+         <button className="nav-button">Projects</button>
         </a>
          <a href="#tech">
-         <button className="button">Tech</button>
+         <button className="nav-button">Tech</button>
         </a>
          <a href="#connect">
-         <button className="button">Connect</button>
+         <button className="nav-button">Connect</button>
         </a>
         </ul>
     )
