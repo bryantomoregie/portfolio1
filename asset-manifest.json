@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio1/static/css/main.a976a22e.chunk.css",
+    "main.js": "/portfolio1/static/js/main.59642579.chunk.js",
+    "main.js.map": "/portfolio1/static/js/main.59642579.chunk.js.map",
+    "runtime-main.js": "/portfolio1/static/js/runtime-main.1ca99ad0.js",
+    "runtime-main.js.map": "/portfolio1/static/js/runtime-main.1ca99ad0.js.map",
+    "static/js/2.47ca7890.chunk.js": "/portfolio1/static/js/2.47ca7890.chunk.js",
+    "static/js/2.47ca7890.chunk.js.map": "/portfolio1/static/js/2.47ca7890.chunk.js.map",
+    "index.html": "/portfolio1/index.html",
+    "precache-manifest.958d4ec117bcf7a5161b7f949eca320c.js": "/portfolio1/precache-manifest.958d4ec117bcf7a5161b7f949eca320c.js",
+    "service-worker.js": "/portfolio1/service-worker.js",
+    "static/css/main.a976a22e.chunk.css.map": "/portfolio1/static/css/main.a976a22e.chunk.css.map",
+    "static/js/2.47ca7890.chunk.js.LICENSE.txt": "/portfolio1/static/js/2.47ca7890.chunk.js.LICENSE.txt",
+    "static/media/project.css": "/portfolio1/static/media/shoe-palace.df911c43.png",
+    "static/media/tech.css": "/portfolio1/static/media/mountains.3f02cf0b.jpeg",
+    "static/media/welcome.css": "/portfolio1/static/media/nature.77e12aa7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ca99ad0.js",
+    "static/js/2.47ca7890.chunk.js",
+    "static/css/main.a976a22e.chunk.css",
+    "static/js/main.59642579.chunk.js"
+  ]
+}
