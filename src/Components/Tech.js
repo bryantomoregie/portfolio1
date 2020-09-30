@@ -4,7 +4,6 @@ import { AiOutlineHtml5, AiFillGithub } from "react-icons/ai";
 
 import { FaCss3, FaReact } from "react-icons/fa";
 import { DiRuby, DiVisualstudio, DiJavascript1 } from "react-icons/di";
-import SiRails from "react-icons/si";
 
 
 let TechRow1 = [

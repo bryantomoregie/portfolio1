@@ -33,7 +33,7 @@ export default function Welcome() {
         <h3>Enjoy your stay.</h3>
         <h4>- Bryant Omoregie</h4>
         <br></br>
-        <a href="https://drive.google.com/file/d/1i7KC9PmBJZfNSX9W5wIEUVAF6jst6sXw/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1i7KC9PmBJZfNSX9W5wIEUVAF6jst6sXw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="recruiterButton">Recruiters Click Here</button>
         </a>
       </div>

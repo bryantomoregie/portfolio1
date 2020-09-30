@@ -1,31 +1,27 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState} from "react";
 import "../css/NavBar.css";
 import { SideBarData } from "./SideBarData";
 import NavButtons from "./NavButtons.js";
 import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiOutlineHeart,
   AiFillHeart,
 } from "react-icons/ai";
 
 export default function NavBar() {
   const [click, setClick] = useState(false);
-  const [largeScreen, setLargeScreen] = useState(true);
+  // const [largeScreen, setLargeScreen] = useState(true);
 
   const handleClick = () => {
     setClick(!click);
     console.log(click);
   };
 
-  const showSideBar = () => {
-    if (window.innerWidth < 600) {
-      setLargeScreen(false);
-    } else if (window.innerWidth >= 600) {
-      setLargeScreen(true);
-    }
-  };
+  // const showSideBar = () => {
+  //   if (window.innerWidth < 600) {
+  //     setLargeScreen(false);
+  //   } else if (window.innerWidth >= 600) {
+  //     setLargeScreen(true);
+  //   }
+  // };
 
   // window.addEventListener("resize", showSideBar);
 

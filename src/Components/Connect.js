@@ -37,7 +37,7 @@ export default function Connect() {
     <div id="connect" className="contact-container">
       <div className="connect-row" i>
         {Connects.map((tech) => (
-          <a href={tech.link} target="_blank">
+          <a href={tech.link} target="_blank" rel="noopener noreferrer">
             <div className="connect-card">
               <div className="connectlogo">{tech.logo}</div>
               <div className="connect-name">{tech.label}</div>

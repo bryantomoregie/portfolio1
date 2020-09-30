@@ -72,10 +72,10 @@ export default function Projects() {
 
           </div>
           <div class="links">
-            <a href={project.ghlink} target="_blank">
+            <a href={project.ghlink} target="_blank" rel="noopener noreferrer">
               <AiFillGithub />
             </a>
-            <a href={project.ytlink} target="_blank">
+            <a href={project.ytlink} target="_blank" rel="noopener noreferrer">
               <AiFillYoutube />
             </a>
           </div>
