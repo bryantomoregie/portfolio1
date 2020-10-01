@@ -87,15 +87,9 @@ export default function Projects() {
       </div>
 
       <div className="scroll">
-        <div id="left" >
-          <AiOutlineDoubleLeft />
-        </div>
         <div ref={itni} className="preview" id="itni" onClick={(e) => handleClick(e)}></div>
         <div ref={shoepalace} className="preview" id="shoepalace" onClick={(e) => handleClick(e)}></div>
-        <div ref={portfolio} className="preview" id="portfolio" onClick={(e) => handleClick(e)}></div>
-        <div id="right">
-          <AiOutlineDoubleRight />
-        </div>
+        <div ref={portfolio} className="preview" id="portfolio" onClick={(e) => handleClick(e)}></div>     
       </div>
     </div>
   );
