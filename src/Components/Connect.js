@@ -35,6 +35,7 @@ let Connects = [
 export default function Connect() {
   return (
     <div id="connect" className="connect-container">
+      < h1 className="connect-header">Let's Connect</h1>
       <div className="connect-row" i>
         {Connects.map((tech) => (
           <a href={tech.link} target="_blank" rel="noopener noreferrer">
