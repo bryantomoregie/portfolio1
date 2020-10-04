@@ -43,7 +43,8 @@ let TechRow2 = [
 export default function Tech() {
   return (
     <div id="tech" className="techcontainer">
- 
+      <div className="tech-title">Technology</div> 
+      
       <div className="row" id="top-row">
         {TechRow1.map((tech) => 
         <div className="tech-card">
@@ -62,7 +63,6 @@ export default function Tech() {
         )}
       </div>
 
-      <div className="tech-title">Technology</div> 
     </div>
   );
 }

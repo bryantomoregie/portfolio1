@@ -1,7 +1,7 @@
-ul {
+.nav-buttons {
     background: lightcoral;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,19 +18,22 @@ ul {
     cursor: pointer;
     font-size: 15px;
   }
+
+  .nav-buttons > .active {
+    border-bottom: 2px solid orange;
+  }
   
   .nav-button:hover {
     border-bottom: 2px solid orange;
   }
-  
+
+/*   
   .nav-button:focus {
     border-bottom: 2px solid orange;
     outline:0 !important; 
-  }
+  } */
 
-  .nav-button:active{
-    border-bottom: 2px solid orange;
-  }
+
   
 
 

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 .welcome {
-    background-image: url('../images/nature.jpg');
+    background-image: url('../images/welcome.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

@@ -2,9 +2,6 @@ import React, { useState} from "react";
 import "../css/NavBar.css";
 import { SideBarData } from "./SideBarData";
 import NavButtons from "./NavButtons.js";
-import {
-  AiFillHeart,
-} from "react-icons/ai";
 
 export default function NavBar() {
   const [click, setClick] = useState(false);
@@ -33,15 +30,15 @@ export default function NavBar() {
 
   return (
     <div className="navigation">
-      <div className="navbar-container">
-        <div className="dedication">
-          <div className="sentence">Dedicated to Caydence</div>
+      {/* <div className="navbar-container"> */}
+        {/* <div className="dedication"> */}
+          {/* <div className="sentence">Dedicated to Caydence</div>
           <div className="heart">
             <AiFillHeart />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <NavButtons />
-      </div>
+      {/* </div> */}
       {/* <div className="navbar-container">
         {largeScreen ? (
           <NavButtons/>

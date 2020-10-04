@@ -1,6 +1,6 @@
-.contact-container{
-    background-color:#8089a2;
-    min-height: 310px;
+.connect-container{
+    /* background-color:#8089a2; */
+    height: 600px;
     display: flex;
     justify-content: center;
  

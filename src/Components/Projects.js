@@ -7,8 +7,6 @@ import "../css/project.css";
 import {
   AiFillGithub,
   AiFillYoutube,
-  AiOutlineDoubleLeft,
-  AiOutlineDoubleRight,
 } from "react-icons/ai";
 
 export default function Projects() {

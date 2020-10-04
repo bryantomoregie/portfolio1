@@ -34,7 +34,7 @@ let Connects = [
 
 export default function Connect() {
   return (
-    <div id="connect" className="contact-container">
+    <div id="connect" className="connect-container">
       <div className="connect-row" i>
         {Connects.map((tech) => (
           <a href={tech.link} target="_blank" rel="noopener noreferrer">
